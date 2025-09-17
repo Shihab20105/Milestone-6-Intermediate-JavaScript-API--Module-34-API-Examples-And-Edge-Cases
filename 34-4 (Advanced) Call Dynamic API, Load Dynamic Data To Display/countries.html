@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call dynamic API</title>
+    <style>
+        #all-countries{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        .country{
+            border: 2px solid palevioletred;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h4>34-4 (advanced) Call dynamic API, load dynamic data to display</h4>
+    </header>
+    <h2>All Countries</h2>
+    <!-- <section>
+        <h2>Country Details</h2>
+        <h3>Name:</h3>
+        <p>Capital</p>
+        <img src="" alt="">
+    </section> -->
+    <section id="country-detail">
+
+    </section>
+    <section>
+        <div id="all-countries">
+            
+        </div>
+    </section>
+    <script src="JS/countries.js"></script>
+</body>
+</html>
